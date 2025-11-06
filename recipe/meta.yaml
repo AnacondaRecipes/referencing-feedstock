@@ -9,7 +9,7 @@ source:
   sha256: 794ad8003c65938edcdbc027f1933215e0d0ccc0291e3ce20a4d87432b59efc0
 
 build:
-  number: 0
+  number: 1
   script_env:
     - REFERENCING_SUITE=./suite
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
