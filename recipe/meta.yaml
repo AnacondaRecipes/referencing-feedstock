@@ -1,5 +1,5 @@
 {% set name = "referencing" %}
-{% set version = "0.37.0" %}
+{% set version = "0.31.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 44aefc3142c5b842538163acb373e24cce6632bd54bdb01b21ad5863489f50d8
+  sha256: 81a1471c68c9d5e3831c30ad1dd9815c45b558e596653db751a2bfdd17b3b9ec
 
 build:
   number: 0
